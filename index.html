@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Management</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <img src="./assets/logo.svg" alt="Logo" class="logo" />
+      </div>
+      <div class="header-right">
+        <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="#"><img src="./assets/home-icon.svg" alt="Home" class="nav-icon" /></a></li>
+            <li><a href="#"><img src="./assets/setting-icon.svg" alt="Settings" class="nav-icon" /></a></li>
+            <li class="notification-icon"><a href="#"><img src="./assets/bell-icon.svg" alt="Notifications" class="nav-icon" /></a></li>
+            <li><a href="#"><img src="./assets/profile.jpg" alt="Profile" class="profile-photo" id="profile" /></a></li>
+            <li id="nav-menu">&#8942;</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <nav class="sidebar" aria-label="Journey Board">
+        <div class="collapse">
+          <div class="collapse-header" id="collapse-arrow">
+            <div></div>
+            <img src="./assets/arrow-up.svg" alt="Expand" class="arrow-icon" />
+          </div>
+          <div class="collapse-value">
+            <h1>1</h1>
+          </div>
+        </div>
+        <div class="expand" style="display: none">
+          <div class="expand-title" id="expand-arrow">
+            <h5>Journey Board</h5>
+            <img src="./assets/arrow-down.svg" alt="Collapse" class="arrow-icon" />
+          </div>
+          <div class="expand-value">
+            <ul>
+              <li>Explore the world of management</li>
+              <li>Technical Project Management</li>
+              <li>Threadbuild</li>
+              <li>Structure Your Pointers</li>
+              <li>4SA Method</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="content-wrapper" id="dynamicContent">
+        <!-- Dynamic content will be inserted here by JavaScript -->
+      </section>
+    </main>
+
+    <aside class="notice-section" aria-label="Notice Board">
+      <div class="notice-board">
+        <button class="close-notice">
+          <img src="./assets/cross.svg" alt="Close" class="cross-icon" />
+        </button>
+        <div class="notice-text">
+          <span>N</span><span>o</span><span>t</span><span>i</span><span>c</span><span>e</span>
+          <br>
+          <span>B</span><span>o</span><span>a</span><span>r</span><span>d</span>
+        </div>
+      </div>
+      <div class="notice-content">
+        <!-- Empty white rectangle -->
+      </div>
+    </aside>
+
+    <footer>
+      <div class="footer-icon">
+        <img src="./assets/question-mark.png" alt="Help" class="footer-icon-img" width="37" height="40" />
+      </div>
+      <div class="footer-icon">
+        <img src="./assets/meeting.png" alt="Calendar" class="footer-icon-img" width="46" height="46" />
+      </div>
+      <div class="footer-icon">
+        <img src="./assets/schedule.png" alt="Discussion" class="footer-icon-img" width="50" height="50" />
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
