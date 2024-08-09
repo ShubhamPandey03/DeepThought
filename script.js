@@ -61,7 +61,7 @@ const projectData = {
         },
         {
           asset_id: 18885,
-          asset_title: "Structure you pointers ",
+          asset_title: "Structure you pointers",
           asset_description:
             "Write a 400-500 word article, from your thread. Publish your understanding, and showcase your learning to the entire world.",
           asset_content: " ",
